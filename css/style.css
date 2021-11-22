@@ -1,0 +1,377 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montagu Slab', serif;;
+
+}
+.indexheadline
+{
+    color: rgb(223, 252, 237);
+    font-weight: 900;
+    font-size: 180%;
+  font-family: 'Lobster', cursive;
+font-family: 'Montagu Slab', serif;
+position:absolute;
+top: 100px;
+left: 400px;
+outline-style: dotted;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #0e010d;
+    text-decoration: none;
+}
+a:hover{
+    color: #257945;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color:#062e12;
+    ;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+.color{
+    color: #f05656;
+}
+.color1{
+    color: #f8e3e3;
+}
+h2{
+    color: #023618;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: absolute;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.navbar{
+    background-color: whitesmoke;
+    width: 68%;
+    position:fixed;
+    left: 16%;
+    right: 20%;
+}
+.logo{
+    width: 15%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+    width: auto;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 21.5% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    background-image: url(../images/cat-back.jpg);
+    background-size:cover;
+    width: 67.5%;
+    position: relative;
+    left: 16.3%;
+  
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 18%;
+    position: relative;
+   
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+    background-image: url(../images/foodmenu-back.jpg);
+    background-size: cover;
+    width: 67.5%;
+    position: relative;
+    left: 16.3%;
+   
+
+    
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 25px;
+}
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+/* CSS for momo page */
+.momo{
+    background-image: url(../images/momorecipe.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 22.5% 0;
+}
+.momorecipe{
+    background-image: url(../images/momochop.jpg);
+    background-size:cover;
+    width: 67.5%;
+    position: relative;
+    left: 16.3%;
+  
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
+
+
+/*css for deserts*/
+
+.desert-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+    background-image: url(../images/desert1.jpg);
+    background-size: cover;
+    width: 67.5%;
+    position: relative;
+    left: 16.3%;
+    
+
+    
+}
+
+/* CSS for pinapple page */
+.pineapple{
+    background-image: url(../images/pinapplemain.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 19% 0;
+}
+.pinerecipe{
+    background-image: url(../images/lemon.jpg);
+    background-size:cover;
+    width: 68%;
+    position: relative;
+    left: 16%;
+  
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
+
+/* CSS for samoa page */
+.samoa{
+    background-image: url(../images/samoa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20% 0;
+}
+.samoarecipe{
+    background-image: url(../images/samoa1.webp);
+    background-size:cover;
+    width: 68%;
+    position: relative;
+    left: 16%;
+  
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0;
+}
